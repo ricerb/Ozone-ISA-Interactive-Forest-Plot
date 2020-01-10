@@ -1,0 +1,57 @@
+﻿Health Outcome Measure,Exposure Timing,Study Name,Study Year,Study Type,Location,Age,Mean ppb,Lag,OR,LCL,UCL,Lower_Error,Upper_Error,Location in 2019 Ozone ISA,Notes
+Hospital Admissions for Asthma,ST,Silverman and Ito,2010,Time-series,U.S.,All ages,41,NR,1.05,0.99,1.1,0.06,0.05,Table 3-13,
+Hospital Admissions for Asthma,ST,Silverman and Ito,2010,Time-series,U.S.,<6 years,41,NR,1.03,0.92,1.15,0.11,0.12,Table 3-13,
+Hospital Admissions for Asthma,ST,Silverman and Ito,2010,Time-series,U.S.,6-18 years,41,NR,1.23,1.09,1.39,0.14,0.16,Table 3-13,
+Hospital Admissions for Asthma,ST,Silverman and Ito,2010,Time-series,U.S.,19-49 years,41,NR,0.97,0.89,1.07,0.08,0.1,Table 3-13,
+Hospital Admissions for Asthma,ST,Silverman and Ito,2010,Time-series,U.S.,50+ years,41,NR,1.04,0.96,1.12,0.08,0.08,Table 3-13,
+Hospital Admissions for Asthma,ST,Winquist et al.,2012,Time-series,U.S.,All ages,NR,0-4 days,1.05,0.99,1.11,0.06,0.06,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017a),2017,Time-series,U.S.,All ages,30.7,0-1 days,1.01,0.99,1.03,0.02,0.02,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017a),2017,Time-series,U.S.,<6 years,30.7,0-1 days,0.99,0.96,1.03,0.03,0.04,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017a),2017,Time-series,U.S.,6-18 years,30.7,0-1 days,1.05,1.01,1.1,0.04,0.05,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017a),2017,Time-series,U.S.,19-49 years,30.7,0-1 days,1.03,1,1.06,0.03,0.03,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017a),2017,Time-series,U.S.,50+ years,30.7,0-1 days,1,0.97,1.03,0.03,0.03,Table 3-13,
+Hospital Admissions for Asthma,ST,Zu et al.,2017,Time-series,U.S.,All ages (5+ years),32.2,0-3 days,1.05,1.03,1.07,0.02,0.02,Table 3-13,
+Hospital Admissions for Asthma,ST,Zu et al.,2017,Time-series,U.S.,5-14 years,32.2,0-3 days,1.1,1.05,1.14,0.05,0.04,Table 3-13,
+Hospital Admissions for Asthma,ST,Zu et al.,2017,Time-series,U.S.,15-64 years,32.2,0-3 days,1.04,1.01,1.07,0.03,0.03,Table 3-13,
+Hospital Admissions for Asthma,ST,Zu et al.,2017,Time-series,U.S.,65+ years,32.2,0-3 days,1,0.96,1.05,0.04,0.05,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017b),2017,Time-series,U.S.,All ages,41.8,0 days,1.01,1,1.03,0.01,0.02,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017b),2017,Time-series,U.S.,5-14 years,41.8,0 days,1.05,1.02,1.1,0.03,0.05,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017b),2017,Time-series,U.S.,15-64 years,41.8,0 days,1.01,0.99,1.03,0.02,0.02,Table 3-13,
+Hospital Admissions for Asthma,ST,Goodman et al. (2017b),2017,Time-series,U.S.,65+ years,41.8,0 days,0.99,0.95,1.03,0.04,0.04,Table 3-13,
+Emergency Department Visits for Asthma,ST,Stieb et al.,2009,Time-series,Canada,All ages,18.4,1 day,1.026,1.02,1.05,0.006,0.024,Table 3-14,Percent increase
+Emergency Department Visits for Asthma,ST,Villeneuve et al. (summer),2007,Time-series,Canada,All ages,38,1 day,1.07,1.04,1.1,0.03,0.03,Table 3-14,
+Emergency Department Visits for Asthma,ST,Villeneuve et al. (winter),2007,Time-series,Canada,All ages,24.3,1 day,1.02,0.98,1.06,0.04,0.04,Table 3-14,
+Emergency Department Visits for Asthma,ST,Villeneuve et al. (year-round),2007,Time-series,Canada,All ages,NR,1 day,1.04,1.02,1.07,0.02,0.03,Table 3-14,
+Emergency Department Visits for Asthma,ST,Ito et al. (warm season),2007,Time-series,U.S.,All ages,42.7,0-1 days,1.11,1.071,1.15,0.039,0.04,Table 3-14,Percent increase
+Emergency Department Visits for Asthma,ST,Sarnat et al. (overall),2013,Time-series,U.S.,All ages,41.9,0-2 days,1.03,1.01,1.04,0.02,0.01,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Sarnat et al. (high AER),2013,Time-series,U.S.,All ages,41.9,0-2 days,1.02,1,1.04,0.02,0.02,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Sarnat et al. (low AER),2013,Time-series,U.S.,All ages,41.9,0-2 days,1.04,1.02,1.06,0.02,0.02,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Winquist et al.,2012,Time-series,U.S.,All ages,NR,0-4 days,1.05,1.02,1.08,0.03,0.03,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Sacks et al. (year-round),2014,Case-crossover,U.S.,All ages,43.6,0-2 days,1.02,1,1.04,0.02,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Sacks et al. (warm season),2014,Case-crossover,U.S.,All ages,50.1,0-2 days,1.02,1,1.04,0.02,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Winquist et al. (cold season),2014,Time-series,U.S.,5-17 years,53.9,0-2 days,1.05,1.01,1.09,0.04,0.04,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Winquist et al. (warm season),2014,Time-series,U.S.,5-17 years,53.9,0-2 days,1.05,1.02,1.09,0.03,0.04,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Barry et al. (Atlanta),2018,Time-series,U.S.,All ages,37.5-42.2,0-2 days,1.03,1.01,1.05,0.02,0.02,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Barry et al. (Birmingham),2018,Time-series,U.S.,All ages,37.5-42.2,0-2 days,1.03,0.98,1.08,0.05,0.05,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Barry et al. (Dallas),2018,Time-series,U.S.,All ages,37.5-42.2,0-2 days,1.03,1,1.06,0.03,0.03,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Barry et al. (Pittsburgh),2018,Time-series,U.S.,All ages,37.5-42.2,0-2 days,1.04,1,1.06,0.04,0.02,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Barry et al. (St. Louis),2018,Time-series,U.S.,All ages,37.5-42.2,0-2 days,1.06,1.02,1.09,0.04,0.03,Table 3-14,RR
+Emergency Department Visits for Asthma,ST,Gleason et al.,2014,Case-crossover,U.S.,3-17 years,NR,0-2 days,1.06,1.05,1.08,0.01,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Strickland et al.,2014,Time-series,U.S.,2-16 years,42.22,0-2 days,1.07,1.04,1.09,0.03,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Sarnat et al.,2015,Time-series,U.S.,All ages,36.2,0-2 days,1.05,1,1.09,0.05,0.04,Table 3-14,
+Emergency Department Visits for Asthma,ST,Byers et al.,2015,Time-series,U.S.,All ages,48.5,0-2 days,1.03,0.99,1.07,0.04,0.04,Table 3-14,
+Emergency Department Visits for Asthma,ST,Byers et al.,2015,Time-series,U.S.,5-17 years,48.5,0-2 days,1.05,0.97,1.14,0.08,0.09,Table 3-14,
+Emergency Department Visits for Asthma,ST,Byers et al.,2015,Time-series,U.S.,18-44 years,48.5,0-2 days,1.06,1,1.12,0.06,0.06,Table 3-14,
+Emergency Department Visits for Asthma,ST,Byers et al.,2015,Time-series,U.S.,45+ years,48.5,0-2 days,0.97,0.91,1.04,0.06,0.07,Table 3-14,
+Emergency Department Visits for Asthma,ST,Alhanti et al.,2016,Time-series,U.S.,0-4 years,37.3-43.7,0-2 days,1.02,1.01,1.04,0.01,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Alhanti et al.,2016,Time-series,U.S.,5-18 years,37.3-43.7,0-2 days,1.05,1.03,1.07,0.02,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Alhanti et al.,2016,Time-series,U.S.,19-39 years,37.3-43.7,0-2 days,1.02,1,1.04,0.02,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Alhanti et al.,2016,Time-series,U.S.,40-64 years,37.3-43.7,0-2 days,1.01,0.99,1.03,0.02,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Alhanti et al.,2016,Time-series,U.S.,65+ years,37.3-43.7,0-2 days,1.02,0.98,1.06,0.04,0.04,Table 3-14,
+Emergency Department Visits for Asthma,ST,Sheffield et al.,2015,Case-crossover,U.S.,5-17 years,NR,0-3 days,1.1081,1.0684,1.1503,0.0397,0.0422,Table 3-14,Percent increase
+Emergency Department Visits for Asthma,ST,Maliq et al. (year round),2016,Case-crossover,U.S.,All ages,33-35,0-1 days,1.0385,1.0217,1.0556,0.0168,0.0171,Table 3-14,Percent increase
+Emergency Department Visits for Asthma,ST,Maliq et al. (warm season),2016,Case-crossover,U.S.,All ages,33-35,0-1 days,1.0418,1.0193,1.0648,0.0225,0.023,Table 3-14,Percent increase
+Emergency Department Visits for Asthma,ST,O'Lenick et al.,2017,Case-crossover,U.S.,5-17 years,NR,0-2 days,1.06,1.03,1.08,0.03,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Xiao et al.,2016,Case-crossover,U.S.,2-18 years,42.1,0-3 days,1.03,1.01,1.05,0.02,0.02,Table 3-14,
+Emergency Department Visits for Asthma,ST,Szyszkowicz et al. (males),2018,Case-crossover,U.S.,0-19 years,22.5-29.2,1 day,1.03,1,1.06,0.03,0.03,Table 3-14,
+Emergency Department Visits for Asthma,ST,Szyszkowicz et al. (females),2018,Case-crossover,U.S.,0-19 years,22.5-29.2,1 day,1.04,1,1.08,0.04,0.04,Table 3-14,
