@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -7,8 +9,11 @@ import plotly.express as px
 import pandas as pd
 
 
-path = 'C:\\Users\\rrice\\IFP dev\\forest_plot_epi_resp_data.csv'
-df = pd.read_csv(path)
+ROOT = Path(__file__).resolve().parent
+dataset = str(ROOT / 'forest_plot_epi_resp_data.csv')
+assert Path(dataset).exists()
+
+df = pd.read_csv(dataset)
 columns = list(df.columns.values)
 dimensions = columns[0:9]
 

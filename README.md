@@ -4,17 +4,32 @@ A Python Dash app presenting epidemiological study results from the 2019 Ozone I
 
 ## Requirements
 
-Global installation requirements:
+Using python 3.6 or higher:
 
-1. Install Python 3.7
+```bash
+# clone repo
+git clone https://github.com/ricerb/Ozone-ISA-Interactive-Forest-Plot.git
+cd Ozone-ISA-Interactive-Forest-Plot
 
-In the root directory of the application:
+# create python virtual environment
+python -m venv venv
 
-1. Install Pandas
+# activate environment
+# (on mac/linux):
+source venv/bin/activate
+# (or on windows):
+# venv\Scripts\activate
 
-2. Install Dash and its dependencies
+# update pip and install requirements
+python -m pip install -U pip
+pip install -r ./requirements.txt
+```
 
-3. Install Plotly and Plotly Express
+To run the application:
+
+```bash
+python fp_ozone_resp.py
+```
 
 ## Usage
 

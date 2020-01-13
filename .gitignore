@@ -1,0 +1,6 @@
+# paths
+.mypy_cache/
+.vscode/
+venv/
+
+# files
