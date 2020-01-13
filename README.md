@@ -1,6 +1,6 @@
 # Ozone ISA Interactive Forest Plot Prototype
 
-A Python Dash app presenting epidemiological study results from the 2019 Ozone ISA in a filterable format.
+A Python Dash app presenting epidemiological study results from the 2019 draft Ozone ISA in a filterable format.
 
 ## Requirements
 
