@@ -19,14 +19,15 @@ dimensions = columns[0:9]
 
 
 app = dash.Dash(__name__, external_stylesheets=["https://codepen.io/chriddyp/pen/bWLwgP.css"])
+server = app.server
 app.config.suppress_callback_exceptions = True
 
 app.layout = html.Div([html.H3('Ozone ISA Interactive Forest Plot Prototype'),
-    
+
     html.Div([
         html.Div(
                 [
-                    html.P([d + ":", dcc.Dropdown(id=d, 
+                    html.P([d + ":", dcc.Dropdown(id=d,
                     options=[dict(label=x, value=x) for x in df[d].unique()],
                     value=[x for x in df[d].unique()],
                     multi=True)])
@@ -49,7 +50,7 @@ Location, Age, Mean_ppb, Lag):
 
     filterables = [Health_Outcome_Measure, Exposure_Timing, Study_Name, Study_Year, Study_Type,
     Location, Age, Mean_ppb, Lag]
-  
+
     for f in filterables:
         if type(f) != list:
             f = ['']
@@ -95,4 +96,4 @@ Location, Age, Mean_ppb, Lag):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True, host='0.0.0.0', port=8050)
