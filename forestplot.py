@@ -38,10 +38,10 @@ selectors = [createselector(dcol1), createselector(dcol2), createselector(dcol3)
 
 selectors.append(
      html.P(["Sort by:", dcc.Dropdown(id="sort-by",
-                    options=[dict(label="Study Year", value='year'),
-                        dict(label="Study Name", value='name'),
+                    options=[dict(label="Study Name", value='name'),
+                        dict(label="Study Year", value='year'),
                         dict(label="Exposure Level", value='mean ppb')],
-                    value="b",
+                    value="name",
                     multi=False)])
 )
 
@@ -118,7 +118,7 @@ def render(title):
 
     ## Create Divs
     return  html.Div([
-         html.H5(title),
+        html.H5(title),
         html.Div([
             html.Div(
                     s,

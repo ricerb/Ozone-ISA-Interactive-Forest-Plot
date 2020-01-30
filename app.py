@@ -29,7 +29,7 @@ app.layout = html.Div([
         dcc.Tab(label='Animal Tox Plot', value ='toxplot')
     ]),
     html.Div(id='tabcontent')
-  ])
+])
 
 
 ##Put callback options in here - 2 separate callbacks for each plot/tab?
@@ -39,7 +39,7 @@ app.layout = html.Div([
 
 def render_content(tab):
     if tab == 'forestplot':
-        return forestplot.render("foo")
+        return forestplot.render("Emergency Department visits and Hospital Admissions for Asthma")
     if tab == 'toxplot':
         return html.H5("bar")
 
