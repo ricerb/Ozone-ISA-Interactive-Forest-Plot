@@ -18,6 +18,9 @@ assert Path(dataset).exists()
 df = pd.read_csv(dataset)
 df['Exposure Quartile'] = df['Exposure Quartile'].str.strip('](')
 df['Exposure Quartile'] = df['Exposure Quartile'].replace('18.398999999999997, 32.65', '18.4. 32.65')
+df['Exposure Quartile'] = df['Exposure Quartile'].replace(', ', '-', regex = True)
+df['Exposure Quartile'] = df['Exposure Quartile'].replace('. ', '-', regex = True)
+df['Exposure Quartile'] = df['Exposure Quartile'].replace('NR ppb', 'NR', regex = True)
 
 ##Create and arrange selectors
 
@@ -118,7 +121,9 @@ def render(title):
 
     ## Create Divs
     return  html.Div([
+        html.H1(''),
         html.H5(title),
+        html.H1(''),
         html.Div([
             html.Div(
                     s,

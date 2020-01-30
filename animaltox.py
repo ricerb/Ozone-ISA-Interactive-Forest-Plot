@@ -90,7 +90,9 @@ def render(title):
 
     ## Create Divs
     return  html.Div([
-         html.H5(title),
+        html.H1(''),
+        html.H5(title),
+        html.H1(''),
         html.Div([
             html.Div(
                     s,
