@@ -10,6 +10,7 @@ import plotly.express as px
 import pandas as pd
 
 import forestplot
+import animaltox
 
 
 ##Initialize app
@@ -18,6 +19,7 @@ app = dash.Dash(__name__, external_stylesheets=["https://codepen.io/chriddyp/pen
 server = app.server
 app.config.suppress_callback_exceptions = True
 forestplot.startup(app)
+animaltox.startup(app)
 ##Create app layout
 
 app.layout = html.Div([
@@ -41,7 +43,7 @@ def render_content(tab):
     if tab == 'forestplot':
         return forestplot.render("Emergency Department visits and Hospital Admissions for Asthma")
     if tab == 'toxplot':
-        return html.H5("bar")
+        return animaltox.render("Ozone ISA Cardiovascular Effects")
 
 
 
