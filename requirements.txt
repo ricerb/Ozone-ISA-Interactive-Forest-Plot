@@ -1,6 +1,6 @@
 dash==1.7.0
 pandas==0.25.3
-plotly-express==0.4.1
+plotly==4.5.0
 
 # production
 gunicorn==20.0.4
