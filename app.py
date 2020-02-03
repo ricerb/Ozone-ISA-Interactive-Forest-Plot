@@ -18,8 +18,8 @@ import animaltox
 app = dash.Dash(__name__, external_stylesheets=["https://codepen.io/chriddyp/pen/bWLwgP.css"])
 server = app.server
 app.config.suppress_callback_exceptions = True
-forestplot.startup(app)
 animaltox.startup(app)
+forestplot.startup(app)
 ##Create app layout
 
 app.layout = html.Div([
