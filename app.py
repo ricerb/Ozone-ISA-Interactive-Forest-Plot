@@ -28,7 +28,7 @@ app.layout = html.Div([
     
     dcc.Tabs(id='tabs', value='forestplot', children=[
         dcc.Tab(label='Forest Plot', value ='forestplot'),
-        dcc.Tab(label='Animal Tox Plot', value ='toxplot')
+        dcc.Tab(label='Tox/CHE Plot', value ='toxplot')
     ]),
     html.Div(id='tabcontent')
 ])
