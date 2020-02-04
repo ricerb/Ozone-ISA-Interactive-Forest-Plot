@@ -85,18 +85,18 @@ def startup(app):
         ###create figure
         fig = px.sunburst(gdf, path=['STUDY_TYPE','ENDPOINT_CATEGORY', 'ENDPOINT', 'STUDY', 'SUBJECT_GROUP', 'SUBJECT_DETAILS', 
                             'EXPOSURE_DETAILS', 'TIMING_OF_MEASUREMENT', 'RESPONSE'],
-                          color = 'TEST',
+                          color = 'Increasing (Red) Decreasing (Blue)',
                           color_continuous_scale = px.colors.diverging.RdBu[::-1],
                             #['darkblue', 'white', 'darkred'],
-                          color_continuous_midpoint = np.average(df['TEST']) )
+                          color_continuous_midpoint = np.average(df['Increasing (Red) Decreasing (Blue)']) )
         fig.update_layout(height = 1000)
 
         ##create second figure:
-        fig2 = px.treemap(gdf, path = ['STUDY_TYPE','ENDPOINT_CATEGORY', 'ENDPOINT', 'STUDY', 'SUBJECT_GROUP', 'SUBJECT_DETAILS', 
+        fig2 = px.treemap(gdf, path = ['STUDY_TYPE','ENDPOINT_CATEGORY', 'ENDPOINT', 'STUDY', 'SUBJECT_TEXT', 
                             'EXPOSURE_DETAILS', 'TIMING_OF_MEASUREMENT', 'RESPONSE'],
-                      color = 'TEST',
+                      color = 'Increasing (Red) Decreasing (Blue)',
                       color_continuous_scale = px.colors.diverging.RdBu[::-1],
-                      color_continuous_midpoint = np.average(df['TEST']) )
+                      color_continuous_midpoint = np.average(df['Increasing (Red) Decreasing (Blue)']) )
         fig2.update_layout(height = 1000)
 
         ###create table fields
