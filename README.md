@@ -28,7 +28,13 @@ pip install -r ./requirements.txt
 To run the application:
 
 ```bash
-python fp_ozone_resp.py
+python app.py
+```
+
+To deploy the application:
+
+```bash
+./gunicorn.sh
 ```
 
 ## Usage
